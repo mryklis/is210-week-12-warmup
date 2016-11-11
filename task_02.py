@@ -7,7 +7,10 @@ import datetime
 
 
 class InvalidAgeError(Exception):
+    """Age exception"""
+
     pass
+
 
 def get_age(birthyear):
     """Check f age is greater than or equal to 0

@@ -19,7 +19,7 @@ def simple_lookup(var1, var2):
         Warning: Your index/key doesn't exist.
         {}
     """
-    
+
     try:
         return var1[var2]
     except LookupError:
